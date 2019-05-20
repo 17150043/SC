@@ -10,7 +10,7 @@ class SalaryCalcTest {
 
     private SalaryCalc testingClass;
 
-	
+	@BeforeEach
     void setUp() {
         testingClass = new SalaryCalc();
     }
