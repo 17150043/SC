@@ -20,7 +20,7 @@ class SalaryCalcTest {
         testingClass = null;
     }
 
-    @Test
+@Test
     void calcSalary() throws Exception {
         testingClass.arrTf[1].setText("228");
         testingClass.arrTf[2].setText("5");
@@ -28,8 +28,9 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("37");
         testingClass.calcSalary();
         assertEquals("10270,26", testingClass.arrTf[9].getText());
-    }
-	@Test
+	}
+	
+@Test
     void calcSalary2() throws Exception {
         testingClass.arrTf[1].setText("133");
         testingClass.arrTf[2].setText("7");
@@ -37,9 +38,9 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("88");
         testingClass.calcSalary();
         assertEquals("1720,49", testingClass.arrTf[9].getText());
-} 
+    	} 
 
- @Test
+@Test
     void calcSalary3() throws Exception {
         testingClass.arrTf[1].setText("240");
         testingClass.arrTf[2].setText("8");
@@ -47,9 +48,9 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("13");
         testingClass.calcSalary();
         assertEquals("45936,00", testingClass.arrTf[9].getText());
-    }
+	}
 	
-	@Test
+@Test
     void calcSalary4() throws Exception {
         testingClass.arrTf[1].setText("370");
         testingClass.arrTf[2].setText("8");
@@ -57,7 +58,7 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("13");
         testingClass.calcSalary();
         assertEquals("79316,16", testingClass.arrTf[9].getText());
-} 
+	} 
 @Test
     void calcSalary5() throws Exception {
         testingClass.arrTf[1].setText("100");
@@ -66,7 +67,7 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("13");
         testingClass.calcSalary();
         assertEquals("20671,20", testingClass.arrTf[9].getText());
-} 
+	} 
 @Test
     void calcSalary6() throws Exception {
         testingClass.arrTf[1].setText("110");
@@ -75,7 +76,7 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("13");
         testingClass.calcSalary();
         assertEquals("35897,07", testingClass.arrTf[9].getText());
-} 
+	} 
 @Test
     void calcSalary7() throws Exception {
         testingClass.arrTf[1].setText("320");
@@ -84,7 +85,7 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("15");
         testingClass.calcSalary();
         assertEquals("50265,60", testingClass.arrTf[9].getText());
-} 
+	} 
 @Test
     void calcSalary8() throws Exception {
         testingClass.arrTf[1].setText("120");
@@ -93,7 +94,7 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("18");
         testingClass.calcSalary();
         assertEquals("21648,00", testingClass.arrTf[9].getText());
-} 
+	} 
 @Test
     void calcSalary9() throws Exception {
         testingClass.arrTf[1].setText("230");
@@ -102,7 +103,7 @@ class SalaryCalcTest {
         testingClass.arrTf[4].setText("15");
         testingClass.calcSalary();
         assertEquals("27096,30", testingClass.arrTf[9].getText());
-} 
+	} 
 @Test
     void calcSalary10() throws Exception {
         testingClass.arrTf[1].setText("328");
