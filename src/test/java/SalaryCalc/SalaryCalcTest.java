@@ -20,7 +20,7 @@ class SalaryCalcTest {
         testingClass = null;
     }
 
-// @TEST
+@TEST
     void calcSalary() throws Exception {
         testingClass.arrTf[1].setText("228");
         testingClass.arrTf[2].setText("5");
