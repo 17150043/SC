@@ -52,7 +52,7 @@ public class SalaryCalc implements ActionListener{
         
         //добавлям метки через метод addLabel
         addLabel(panelLeft, "Ф.И.О.:", Color.RED);
-        addLabel(panelLeft, "Тарифная ставка (в час):", Color.RED);
+        addLabel(panelLeft, "Тарифная ставка (в час):", Color.GREEN);
         addLabel(panelLeft, "Рабочий день (часы):", Color.RED);
         addLabel(panelLeft, "Количество отработанных дней:", Color.RED);
         addLabel(panelLeft, "Налоговая ставка (%)*:", Color.RED);
